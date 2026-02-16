@@ -1,1 +1,82 @@
-# folderify
+# Batch Folder Sorter v1.0
+
+**Batch Folder Sorter** is a lightweight desktop application designed to help users automatically organize large numbers of files into folders based on metadata stored in a CSV file.
+
+The tool was created to remove the need for command-line usage or scripting and to make batch file restructuring accessible to non-technical users.
+
+---
+
+## 🎯 What is this app for?
+
+This application is useful when you have:
+- A large folder containing many files  
+- A CSV file with metadata that describes how those files should be grouped  
+- The need to automatically create folder structures and move files accordingly  
+
+Typical use cases include:
+- Archival and media workflows  
+- Metadata-based file organization  
+- Batch restructuring of exported datasets  
+  
+
+---
+
+## 🧩 How it works (in simple terms)
+
+1. You select a **ROOT folder**  
+   → this is the folder that contains the files you want to sort  
+
+2. You select a **CSV metadata file**  
+   → the CSV must contain a column named **`Mapnaam`**, which defines the target folder names  
+
+3. Click **RUN**  
+   → the application automatically creates folders and moves files according to the CSV  
+
+No coding, no terminal, no configuration files required.
+
+---
+
+## ✨ Key Features
+
+- Simple graphical user interface (GUI)
+- Works completely offline
+- No Python installation required for end users
+- Supports large batches of files
+- Cancel option during processing
+- Clear process logging inside the app
+
+---
+
+## 📦 Downloads & Installation
+
+### Windows
+- Download: `BatchFolderSorter.exe`
+- Double-click to run  
+- If Windows shows a security warning, choose **More info → Run anyway**
+
+### macOS
+- Download: `BatchFolderSorter.app.zip`
+- Unzip the file
+- Move **Batch Folder Sorter.app** to the **Applications** folder
+- On first launch: right-click → **Open** (macOS security requirement)
+
+---
+
+## ⚠️ Important Notes
+
+- This is the **first stable release (v1.0)**  
+- On macOS and Windows, security warnings may appear because the app is not signed  
+- The application does **not upload or share any data** — all processing happens locally  
+
+---
+
+## 🔮 Future improvements (planned)
+
+- Visual theme improvements
+- Better progress indicators
+- Extended CSV validation
+- Alternative front-end (web-based UI)
+
+![Image 16-02-2026 at 17 16](https://github.com/user-attachments/assets/f0d4adc5-a723-4f8e-ab30-d5231bb86ff9)
+![Image 16-02-2026 at 17 41](https://github.com/user-attachments/assets/816d7269-cbd2-4005-9f68-a59ca9d7899a)
+
