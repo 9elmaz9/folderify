@@ -1,4 +1,4 @@
-# Batch Folder Sorter v1.0
+# Batch Folder Sorter 
 
 **Batch Folder Sorter** is a lightweight desktop application designed to help users automatically organize large numbers of files into folders based on metadata stored in a CSV file.
 
