@@ -5,7 +5,15 @@
 The tool was created to remove the need for command-line usage or scripting and to make batch file restructuring accessible to non-technical users.
 
 ---
+## Purpose
 
+Batch Folder Sorter is intended for situations where files need to be prepared for ingest based on metadata rules defined in a CSV file.
+
+The application automatically creates the required folder structure and organizes files accordingly, without any manual intervention.
+
+This makes the tool especially suitable for ingest and archival workflows.
+
+---
 ## 🎯 What is this app for?
 
 This application is useful when you have:
@@ -18,7 +26,6 @@ Typical use cases include:
 - Metadata-based file organization  
 - Batch restructuring of exported datasets  
   
-
 ---
 
 ## 🧩 How it works (in simple terms)
@@ -49,8 +56,9 @@ No coding, no terminal, no configuration files required.
 
 ## 📦 Downloads & Installation
 
-### Windows
-- Download: `BatchFolderSorter.exe`
+
+### Windows 
+- Download: `BatchFolderSorter-win-x64.exe`
 - Double-click to run  
 - If Windows shows a security warning, choose **More info → Run anyway**
 
@@ -70,12 +78,18 @@ No coding, no terminal, no configuration files required.
 
 ---
 
+
 ## 🔮 Future improvements (planned)
 
 - Visual theme improvements
 - Better progress indicators
 - Extended CSV validation
 - Alternative front-end (web-based UI)
+
+
+
+
+
 
 ![Image 16-02-2026 at 17 16](https://github.com/user-attachments/assets/f0d4adc5-a723-4f8e-ab30-d5231bb86ff9)
 ![Image 16-02-2026 at 17 41](https://github.com/user-attachments/assets/816d7269-cbd2-4005-9f68-a59ca9d7899a)
