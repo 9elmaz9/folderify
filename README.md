@@ -54,7 +54,7 @@ No coding, no terminal, no configuration files required.
 
 ---
 
-## 📦 Downloads & Installation
+## 📦 Downloads & Installation --> https://github.com/9elmaz9/folderify/releases/tag/v1.0
 
 
 ### Windows 
