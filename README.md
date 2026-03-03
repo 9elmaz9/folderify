@@ -91,17 +91,14 @@ No coding, no terminal, no configuration files required.
 
 <div align="center">
 
-<h3>For macOS</h3>
+<h3>For Windows</h3>
 <img src="https://github.com/user-attachments/assets/f0d4adc5-a723-4f8e-ab30-d5231bb86ff9" width="800">
 <br><br>
 
-<h3>For Windows</h3>
+<h3>For macOS</h3>
 <img src="https://github.com/user-attachments/assets/816d7269-cbd2-4005-9f68-a59ca9d7899a" width="800">
 
 </div>
-
-![Image 16-02-2026 at 17 16](https://github.com/user-attachments/assets/f0d4adc5-a723-4f8e-ab30-d5231bb86ff9)
-![Image 16-02-2026 at 17 41](https://github.com/user-attachments/assets/816d7269-cbd2-4005-9f68-a59ca9d7899a)
 
 
 <div align="center">
