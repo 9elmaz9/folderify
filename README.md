@@ -107,8 +107,6 @@ Users simply download the version matching their operating system, launch the ap
 <img src="https://github.com/user-attachments/assets/67326f62-f20e-4cb8-9e43-b7ac6c54591c" width="800">
 <br><br>
 
-
-
 <!--
 <div align="center">
   <img src="https://github.com/user-attachments/assets/116e39c3-f580-40c8-819c-379a02a2c978" height="400">
@@ -117,9 +115,6 @@ Users simply download the version matching their operating system, launch the ap
   <img src="https://github.com/user-attachments/assets/e160bb1d-be0f-4730-bb60-bcd089d350f2" height="400">
 </div>
 -->
-<br>
-
-
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/116e39c3-f580-40c8-819c-379a02a2c978" height="400">
