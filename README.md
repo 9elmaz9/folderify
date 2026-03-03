@@ -1,34 +1,10 @@
-# Batch Folder Sorter 
+Batch Folder Sorter is a desktop application designed to automatically generate a correct folder structure for ingest workflows based on a CSV metadata file. The tool was created to work in combination with systems such as Instroomtool, where a consistent and validated folder structure is required before upload.
 
-**Batch Folder Sorter** is a lightweight desktop application designed to help users automatically organize large numbers of files into folders based on metadata stored in a CSV file.
+### How It Works
 
-The tool was created to remove the need for command-line usage or scripting and to make batch file restructuring accessible to non-technical users.
+The application takes a single folder containing files and a CSV file as input. The CSV acts as the authoritative source for the structure: the column `Mapnaam` defines which folders need to be created.
 
----
-## Purpose
-
-Batch Folder Sorter is intended for situations where files need to be prepared for ingest based on metadata rules defined in a CSV file.
-
-The application automatically creates the required folder structure and organizes files accordingly, without any manual intervention.
-
-This makes the tool especially suitable for ingest and archival workflows.
-
----
-## 🎯 What is this app for?
-
-This application is useful when you have:
-- A large folder containing many files  
-- A CSV file with metadata that describes how those files should be grouped  
-- The need to automatically create folder structures and move files accordingly  
-
-Typical use cases include:
-- Archival and media workflows  
-- Metadata-based file organization  
-- Batch restructuring of exported datasets  
-  
----
-
-## 🧩 How it works (in simple terms)
+Users do not create folders manually. During processing, the application:
 
 1. You select a **ROOT folder**  
    → this is the folder that contains the files you want to sort  
@@ -41,24 +17,49 @@ Typical use cases include:
 
 No coding, no terminal, no configuration files required.
 
+
+- Reads the CSV file  
+- Automatically creates the required folders  
+- Matches files to those folders based on their filenames  
+
+Files are grouped under folders named after the values in the `Mapnaam` column.
+
+Within each folder, the application automatically creates subfolders per file format (for example `jpg`, `tiff`, `png`, --> whole white list Instroomtool). This allows different representations of the same item to be kept together in a clear and predictable structure. Multiple formats per item are supported, and formats are detected automatically.
+
+### File Validation
+
+Only supported file formats are processed.
+
+Files that:
+- Do not match the CSV  
+- Use unsupported formats  
+
+are collected in a separate `_EXTRA_FILES` folder. This makes it easy to review unexpected files without breaking the main structure.
+
+Empty folders are removed automatically, ensuring that the final output is clean and consistent.
+
+### Output
+
+The resulting folder structure is ready for direct use in ingest workflows such as Instroomtool. No additional restructuring or manual intervention is required after processing.
+
+All actions happen locally on the user’s machine. No data is uploaded or shared. The application does not require Python or any additional software to be installed by the end user.
+
+### Availability
+
+Batch Folder Sorter is provided as a ready-to-use desktop application for:
+
+- macOS  
+- Windows (ARM and x64 variants)  
+
+Users simply download the version matching their operating system, launch the application, select their files and CSV, and run the process.
+
 ---
 
-## ✨ Key Features
-
-- Simple graphical user interface (GUI)
-- Works completely offline
-- No Python installation required for end users
-- Supports large batches of files
-- Cancel option during processing
-- Clear process logging inside the app
-
----
-
-## 📦 Downloads & Installation --> https://github.com/9elmaz9/folderify/releases/tag/v1.0
+## Downloads & Installation --> https://github.com/9elmaz9/folderify/releases/tag/v1.0
 
 
 ### Windows 
-- Download: `BatchFolderSorter-win-x64.exe`
+- Download: `BatchFolderSorter-win-x64.exe` ( of download - `BatchFolderSorter_Windows_ARM.exe` for windows RAM) 
 - Double-click to run  
 - If Windows shows a security warning, choose **More info → Run anyway**
 
@@ -74,12 +75,17 @@ No coding, no terminal, no configuration files required.
 
 - This is the **first stable release (v1.0)**  
 - On macOS and Windows, security warnings may appear because the app is not signed  
-- The application does **not upload or share any data** — all processing happens locally  
+- The application does **not upload or share any data** — all processing happens locall
+- Works completely offline  
+- No Python installation required  
+- No additional software required  
+- All processing happens locally  
+- No data is uploaded anywhere  
+- No external services are used  
 
 ---
 
-
-## 🔮 Future improvements (planned)
+## Future improvements (planned)
 
 - Visual theme improvements
 - Better progress indicators
