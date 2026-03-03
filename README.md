@@ -8,6 +8,10 @@ The application takes a single folder containing files and a CSV file as input. 
 
 Users do not create folders manually. During processing, the application:
 
+- Reads the CSV file  
+- Automatically creates the required folders  
+- Matches files to those folders based on their filenames
+
 1. You select a **ROOT folder**  
    → this is the folder that contains the files you want to sort  
 
@@ -18,11 +22,6 @@ Users do not create folders manually. During processing, the application:
    → the application automatically creates folders and moves files according to the CSV  
 
 No coding, no terminal, no configuration files required.
-
-
-- Reads the CSV file  
-- Automatically creates the required folders  
-- Matches files to those folders based on their filenames  
 
 Files are grouped under folders named after the values in the `Mapnaam` column.
 
