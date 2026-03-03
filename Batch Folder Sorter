@@ -1,23 +1,18 @@
-Batch Folder Sorter is a desktop application designed to automatically generate a correct folder structure for ingest workflows based on a CSV metadata file. The tool was created to work in combination with systems such as Instroomtool, where a consistent and validated folder structure is required before upload.
-The application takes a single folder containing files and a CSV file as input. The CSV acts as the authoritative source for the structure: the column Mapnaam defines which folders need to be created. Users do not create folders manually. During processing, the application reads the CSV, creates the required folders automatically, and matches files to those folders based on their filenames.
-Files are grouped under folders named after the values in the Mapnaam column. Within each folder, the application automatically creates subfolders per file format (for example jpg, tiff, png, etc.). This allows different representations of the same item to be kept together in a clear and predictable structure. Multiple formats per item are supported, and the application detects formats automatically.
+## Batch Folder Sorterb
+
+Batch Folder Sorter is a desktop application designed to automatically generate a correct folder structure for ingest workflows based on a CSV metadata file.
+
+The tool was created to work in combination with systems such as Instroomtool, where a consistent and validated folder structure is required before upload.
+
+The application takes a single folder containing files and a CSV file as input. The CSV acts as the authoritative source for the structure: the column Mapnaam defines which folders need to be created.
+
+Users do not create folders manually. During processing, the application reads the CSV, creates the required folders automatically, and matches files to those folders based on their filenames.
+
+Files are grouped under folders named after the values in the Mapnaam column. Within each folder, the application automatically creates subfolders per file format (.ac3, .aif, .dng, .dv, .flac, .jp2, .jpeg, .jpg, .m4a, .m4v, .mkv, .mov, .mp2, .mp3, .mp4, .mpeg, .mpg, .mxf, .png, .psb, .srt, .tif, .tiff, .ts, .wav, .AC3, .AIF, .DNG, .DV, .FLAC, .JP2, .JPEG, .JPG, .M4A, .M4V, .MKV, .MOV, .MP2, .MP3, .MP4, .MPEG, .MPG, .MXF, .PNG, .PSB, .SRT, .TIF, .TIFF, .TS, .WAV).
+
+This allows different representations of the same item to be kept together in a clear and predictable structure. Multiple formats per item are supported, and the application detects formats automatically.
+
 Only supported file formats are processed. Files that do not match the CSV or that use unsupported formats are collected in a separate _EXTRA_FILES folder. This makes it easy to review unexpected files without breaking the main structure. Empty folders are removed automatically, ensuring that the final output is clean and consistent.
-The resulting folder structure is ready for direct use in ingest workflows such as Instroomtool. No additional restructuring or manual intervention is required after processing. All actions happen locally on the user’s machine, and no data is uploaded or shared. The application does not require Python or any additional software to be installed by the end user.
-Batch Folder Sorter is provided as a ready-to-use desktop application for both macOS and Windows (ARM and x64 variants). Users simply download the version matching their operating system, launch the application, select their files and CSV, and run the process.
-
-
-.ac3, .aif, .dng, .dv, .flac, .jp2, .jpeg, .jpg, .m4a, .m4v, .mkv, .mov, .mp2, .mp3, .mp4, .mpeg, .mpg, .mxf, .png, .psb, .srt, .tif, .tiff, .ts, .wav, .AC3, .AIF, .DNG, .DV, .FLAC, .JP2, .JPEG, .JPG, .M4A, .M4V, .MKV, .MOV, .MP2, .MP3, .MP4, .MPEG, .MPG, .MXF, .PNG, .PSB, .SRT, .TIF, .TIFF, .TS, .WAV
-
-
-## Batch Folder Sorter
-
-Batch Folder Sorter is a desktop application designed to automatically generate a correct folder structure for ingest workflows based on a CSV metadata file. The tool was created to work in combination with systems such as Instroomtool, where a consistent and validated folder structure is required before upload.
-
-The application takes a single folder containing files and a CSV file as input. The CSV acts as the authoritative source for the structure: the column `Mapnaam` defines which folders need to be created. Users do not create folders manually. During processing, the application reads the CSV, creates the required folders automatically, and matches files to those folders based on their filenames.
-
-Files are grouped under folders named after the values in the `Mapnaam` column. Within each folder, the application automatically creates subfolders per file format (for example `jpg`, `tiff`, `png`, etc.). This allows different representations of the same item to be kept together in a clear and predictable structure. Multiple formats per item are supported, and the application detects formats automatically.
-
-Only supported file formats are processed. Files that do not match the CSV or that use unsupported formats are collected in a separate `_EXTRA_FILES` folder. This makes it easy to review unexpected files without breaking the main structure. Empty folders are removed automatically, ensuring that the final output is clean and consistent.
 
 The resulting folder structure is ready for direct use in ingest workflows such as Instroomtool. No additional restructuring or manual intervention is required after processing. All actions happen locally on the user’s machine, and no data is uploaded or shared. The application does not require Python or any additional software to be installed by the end user.
 
