@@ -104,7 +104,7 @@ No coding, no terminal, no configuration files required.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/116e39c3-f580-40c8-819c-379a02a2c978" height="400">
-  
+    <span style="font-size:40px; margin: 0 20px;">→</span>
   <img src="https://github.com/user-attachments/assets/08668f81-44a5-4e65-9177-ef2a42f93a67" height="400">
   <img src="https://github.com/user-attachments/assets/e160bb1d-be0f-4730-bb60-bcd089d350f2" height="400">
 </div>
