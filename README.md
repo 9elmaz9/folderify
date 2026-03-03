@@ -98,7 +98,7 @@ No coding, no terminal, no configuration files required.
 <h3>For macOS</h3>
 <img src="https://github.com/user-attachments/assets/816d7269-cbd2-4005-9f68-a59ca9d7899a" width="800">
 <img src="https://github.com/user-attachments/assets/67326f62-f20e-4cb8-9e43-b7ac6c54591c" width="800">
-
+<br><br>
 
 
 
@@ -111,6 +111,7 @@ No coding, no terminal, no configuration files required.
 </div>
 -->
 <br>
+
 
 
 <div align="center">
