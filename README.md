@@ -1,3 +1,5 @@
+### Batch Folder Sorter
+
 Batch Folder Sorter is a desktop application designed to automatically generate a correct folder structure for ingest workflows based on a CSV metadata file. The tool was created to work in combination with systems such as Instroomtool, where a consistent and validated folder structure is required before upload.
 
 ### How It Works
