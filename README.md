@@ -93,4 +93,7 @@ No coding, no terminal, no configuration files required.
 
 ![Image 16-02-2026 at 17 16](https://github.com/user-attachments/assets/f0d4adc5-a723-4f8e-ab30-d5231bb86ff9)
 ![Image 16-02-2026 at 17 41](https://github.com/user-attachments/assets/816d7269-cbd2-4005-9f68-a59ca9d7899a)
+![Image 03-03-2026 at 14 55](https://github.com/user-attachments/assets/116e39c3-f580-40c8-819c-379a02a2c978)
+![Image 03-03-2026 at 14 56](https://github.com/user-attachments/assets/08668f81-44a5-4e65-9177-ef2a42f93a67)
 
+![Image 03-03-2026 at 14 56 (1)](https://github.com/user-attachments/assets/e160bb1d-be0f-4730-bb60-bcd089d350f2)
